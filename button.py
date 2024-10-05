@@ -8,7 +8,7 @@ send_contact = ReplyKeyboardMarkup(
     resize_keyboard=True,
 )
 
-location_contact = ReplyKeyboardMarkup(
+location_button = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="📍 joylashuvni yuboish", request_location=True)]
     ],
@@ -18,7 +18,7 @@ location_contact = ReplyKeyboardMarkup(
 # 1 - usul 
 menu = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="💻 Laptop"),KeyboardButton(text="📱 Phones")],
+        [KeyboardButton(text="💻 Laptop"), KeyboardButton(text="📱 Phones")],
         [KeyboardButton(text="💁🏻‍♂️ About us"),KeyboardButton(text="📍 Location")],
         [KeyboardButton(text="☎️ Contact admin")]
     ],

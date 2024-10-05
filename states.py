@@ -5,4 +5,5 @@ class Registor(StatesGroup):
     familiya = State() 
     yosh = State()
     tel = State()
+    location = State()
     kurs = State()
